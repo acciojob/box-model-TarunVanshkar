@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+.container{
+    height: 250px;
+    background-color: #D3D3D3;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+    border: 6px solid black;
+    border-radius: 65px;
+}
+
+.red{
+    height: 100px;
+    width: 100px;
+    border: 10px solid red;
+    background-color: red;
+    border-radius: 60px;
+}
+
+.green{
+    height: 100px;
+    width: 100px;
+    border: 10px solid green;
+    background-color: green;
+    border-radius: 60px;
+}
+
+.yellow{
+    height: 100px;
+    width: 100px;
+    border: 10px solid yellow;
+    background-color: yellow;
+    border-radius: 60px;
+}
